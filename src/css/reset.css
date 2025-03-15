@@ -1,3 +1,15 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* #region  */
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 h1,
 h2,
 h3,
@@ -5,30 +17,55 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
-}
-
-p:last-child {
+  margin-top: 0;
   margin-bottom: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 a {
-  color: currentColor;
   text-decoration: none;
 }
 
 button {
+  display: block;
   cursor: pointer;
+  border: none;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+.container {
+  max-width: 411px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .container {
+    max-width: 1140px;
+  }
 }
