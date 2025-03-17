@@ -138,7 +138,7 @@
     margin: 0;
     justify-content: left;
   }
-  .list {
+  .footer-list {
     display: flex;
     flex-wrap: wrap;
   }
