@@ -51,21 +51,3 @@ img {
 p:last-child {
   margin-bottom: 0;
 }
-.container {
-  max-width: 411px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 15px;
-  }
-}
-
-@media screen and (min-width: 1140px) {
-  .container {
-    max-width: 1140px;
-  }
-}
