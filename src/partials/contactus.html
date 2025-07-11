@@ -1,0 +1,59 @@
+<section class="contactus">
+    <div class="container cont">
+        <h2 class="contactus-subtitle">Contact Us</h2>
+        <p class="contactus-text">Need more detailed information?
+            Get in touch with us.</p>
+        <div class="cont-icon-web">
+            <ul class="cont-icon-list">
+                <li class="icons-link-cont">
+                    <a href="https://www.instagram.com/" target="_blank" class="social-link-cont">
+                        <svg class="social-link-svg" width="25" height="25">
+                            <use href="/img/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="icons-link">
+                    <a href="https://www.facebook.com/" target="_blank" class="social-link-cont">
+                        <svg class="social-link-svg" width="25" height="28">
+                            <use href="/img/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="icons-link">
+                    <a href="https://www.twitter.com/" target="_blank" class="social-link-cont">
+                        <svg class="social-link-svg" width="28" height="23">
+                            <use href="/img/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <picture>
+            <source
+                srcset="./images/resources-mobile/map-cards@1x.jpg 1x, ./images/resources-mobile/map-cards@1x.jpg 2x"
+                media="(max-width: 767px)">
+            <img class="cont-map" src="./images/resources/map-cards.jpg" alt="map" width="871" height="324">
+        </picture>
+        <div class="cont-contact">
+            <h2 class="cont-contact-title">Send a message</h2>
+            <form class="contact-form">
+                <div class="form-cont">
+                    <label for="user-name"></label>
+                    <input type="text" class="form-cont-name" name="user-name" id="user-name" placeholder="Your Name"
+                        required />
+                </div>
+                <div class="form-cont">
+                    <label class="" for="user-mail"></label>
+                    <input type="email" class="form-cont-mail" name="user-mail" id="user-mail" placeholder="Your Email"
+                        required />
+                </div>
+                <div class="form-cont">
+                    <label class="" for="user-comment"></label>
+                    <textarea class="form-textar" name="user-comment" id="user-comment"
+                        placeholder="Your Message"></textarea>
+                </div>
+            </form>
+            <button class="form-btn" type="button">Send</button>
+        </div>
+    </div>
+</section>

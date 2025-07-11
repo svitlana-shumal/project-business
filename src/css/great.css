@@ -1,0 +1,118 @@
+.great-business {
+  padding-top: 50px;
+  padding-bottom: 23px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+.great-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.49;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  color: #22343d;
+}
+.great-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin-bottom: 19px;
+}
+.great-form {
+  position: relative;
+  border: 1px solid #eaeaea;
+  border-radius: 100px;
+  display: flex;
+  height: 66px;
+  margin-bottom: 24px;
+}
+.great-input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #22343d;
+  border: none;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 22px;
+}
+.btn-span {
+  display: inline-block;
+}
+.great-btn {
+  position: absolute;
+  border-radius: 100px;
+  padding: 24px;
+  width: 122px;
+  height: 50px;
+  background: #02897a;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 0;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+.great-join {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  margin-bottom: 87px;
+}
+.great-join-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #22343d;
+  margin-left: 9px;
+}
+.span-join {
+  font-weight: 500;
+  color: #02897a;
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1140px) {
+  .great-business {
+    display: flex;
+    padding-top: 77px;
+    padding-bottom: 33px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .great-cont {
+    display: block;
+    margin-right: 46px;
+    margin-bottom: 56px;
+  }
+  .great-title {
+    width: 380px;
+    height: 120px;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 24px;
+    font-size: 40px;
+  }
+  .great-text {
+    width: 535px;
+    text-align: left;
+    margin-bottom: 24px;
+  }
+  .great-form {
+    width: 469px;
+  }
+  .great-btn {
+    margin-left: 118px;
+  }
+  .great-join {
+    margin-left: 0;
+    margin-bottom: 21px;
+  }
+}
