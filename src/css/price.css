@@ -32,7 +32,12 @@
   background: #fff;
   margin: 0 auto;
   padding: 32px 67px;
-  transition: transform 0.25s;
+  transition: transform 0.25s ease;
+}
+.price-item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #02897a;
+  transform: scale(1.05);
 }
 .price-item-title {
   font-weight: 700;
@@ -41,6 +46,21 @@
   color: #22343d;
   text-align: center;
   margin-bottom: 8px;
+}
+.price-item:hover .price-item-title,
+.price-item:hover .price-item-descr,
+.price-item:hover .cont-price-descr,
+.price-item:hover .cont-descr,
+.price-item:hover .cont-descr-price,
+.price-item:hover .price-text,
+.price-item:hover .btn-price {
+  color: #fff;
+}
+
+/* Для кнопки — зміна фону теж */
+.price-item:hover .btn-price {
+  background-color: #fff;
+  color: #02897a;
 }
 .price-item-descr {
   font-family: 'Montserrat', sans-serif;
@@ -107,92 +127,6 @@
   font-weight: 600;
   font-size: 18px;
   color: #fff;
-  margin: 0 auto;
-  margin-top: 30px;
-}
-.price-item-two {
-  border-radius: 8px;
-  width: 322px;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
-  background: #02897a;
-  padding: 32px 67px;
-  transition: transform 0.25s;
-}
-.item-title-two {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.66;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 8px;
-}
-.item-descr-two {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 2.5;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 8px;
-}
-.cont-price-two {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-.cont-price-descr-two {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 76px;
-  line-height: 1.31;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #fff;
-  margin-right: 10px;
-}
-.cont-two {
-  display: block;
-}
-.cont-descr-two {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.25;
-  letter-spacing: 0em;
-  color: #fff;
-  margin-top: 24px;
-  margin-bottom: 4px;
-}
-.cont-descr-price-two {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.01em;
-  color: #e0e0e0;
-}
-.price-text-two {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.375;
-  letter-spacing: 0.01em;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 16px;
-}
-.btn-price-two {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  color: #02897a;
-  border-radius: 8px;
-  width: 139px;
-  height: 44px;
-  background: #fff;
   margin: 0 auto;
   margin-top: 30px;
 }

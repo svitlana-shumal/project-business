@@ -26,6 +26,11 @@
   border-radius: 8px;
   border: 1px solid #dedede;
   overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.strateg-item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
 }
 .strateg-item-descr {
   font-weight: 400;
@@ -48,12 +53,9 @@
   color: #22343d;
   margin-bottom: 40px;
 }
-.strateg-item-text-two {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.66;
+.strateg-item-text:hover,
+.strateg-item-text:focus {
   color: #02897a;
-  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 1140px) {
